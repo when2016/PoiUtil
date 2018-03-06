@@ -17,7 +17,8 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.HorizontalAlignment;
 
 /**
- * wang 2018/3/6 二、面向List-Map结构的导出工具： （一）设计的关键： （1）兼容普通List-Map结构； （2）接口方法易用性； （3）导出数据准确性； （4）扩展性。
+ * Created by 符柱成 on 2017/8/25.
+ * 二、面向List-Map结构的导出工具： （一）设计的关键： （1）兼容普通List-Map结构； （2）接口方法易用性； （3）导出数据准确性； （4）扩展性。
  * （二）基于POI抽象的关键步骤： （1）设置表格标题 （2）设置标题栏 （3）设置内容栏（为了精确比对，需要给出标题栏对应的字段—dtoList（List-Map结构中的key））
  * （4）导出写入到流对象 （三）核心代码与demo：
  */

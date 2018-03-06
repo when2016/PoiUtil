@@ -20,7 +20,8 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.HorizontalAlignment;
 
 /**
- * http://blog.csdn.net/jack__frost/article/details/77510892 wang 2018/3/6
+ * http://blog.csdn.net/jack__frost/article/details/77510892
+ * Created by 符柱成 on 2017/8/25.
  */
 public class ExportBeanExcel<T> {
 

@@ -1,7 +1,7 @@
 package com.wanghongen.utils;
 
 /**
- * wang 2018/3/6
+ * Created by 符柱成 on 2017/8/25.
  */
 public class Student {
 
