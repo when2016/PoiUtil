@@ -10,6 +10,7 @@ import org.apache.poi.poifs.filesystem.POIFSFileSystem;
 import org.apache.poi.ss.usermodel.Cell;
 
 /**
+ * http://mianhuaman.iteye.com/blog/1006830
  * 一个例子说明POI解析EXCEL的大致原理：（取自网上已有–一个粗糙例子）取自此文 某管理员要查某层楼有多少人叫什么名字？ 1)首先要明确大楼在那里(找到对应的文件)
  * 2)其次要明确是在第几单元(找到对应的sheet) 3)在找到第几层楼(对应的row) 4)敲门问住户户主先生/小姐的姓名(cell)
  */
