@@ -58,19 +58,19 @@ public class createSimple2Excel {
         int i = random.nextInt(10);
         row_j.createCell(k).setCellValue(course[i]);
       }
-      sheet.getRow(2).createCell(0).setCellValue("上午");
-      sheet.getRow(7).createCell(0).setCellValue("下午");
-
-      CellRangeAddress thirdAddress = new CellRangeAddress(2, 5, 0, 0);
-      sheet.addMergedRegion(thirdAddress);
-      CellRangeAddress fourthAddress = new CellRangeAddress(7, 9, 0, 0);
-      sheet.addMergedRegion(fourthAddress);
-
-      FileOutputStream out = new FileOutputStream("F:\\data_doc\\历史数据导入\\课程表.xls");
-      workbook.write(out);
-      out.close();
-
     }
+
+    sheet.getRow(2).createCell(0).setCellValue("上午");
+    sheet.getRow(7).createCell(0).setCellValue("下午");
+    CellRangeAddress thirdAddress = new CellRangeAddress(2, 5, 0, 0);
+    sheet.addMergedRegion(thirdAddress);
+
+    CellRangeAddress fourthAddress = new CellRangeAddress(7, 9, 0, 0);
+    sheet.addMergedRegion(fourthAddress);
+
+    FileOutputStream out = new FileOutputStream("F:\\data_doc\\历史数据导入\\课程表.xls");
+    workbook.write(out);
+    out.close();
 
   }
 
